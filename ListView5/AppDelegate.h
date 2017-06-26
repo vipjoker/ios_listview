@@ -11,7 +11,7 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+//https://www.raywenderlich.com/1797/ios-tutorial-how-to-create-a-simple-iphone-app-part-1
 
 @end
 
