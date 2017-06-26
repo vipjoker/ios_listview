@@ -17,7 +17,8 @@
 @property (strong) UIImage *thumbImage;
 @property (strong) UIImage *fullImage;
 
--(id) initWithTitle:(ScaryData *)scarydata
+-(id) initWithTitle:(NSString *)title
+             rating:(float) rating
          thumbImage:(UIImage *)thumbImage
          thumbImage:(UIImage*) thumbIamge ;
 
