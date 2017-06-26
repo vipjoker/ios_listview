@@ -104,12 +104,8 @@
 		8A86C9B51F011F0400A88057 /* ListView5 */ = {
 			isa = PBXGroup;
 			children = (
-				8A86C9B91F011F0400A88057 /* AppDelegate.h */,
-				8A86C9BA1F011F0400A88057 /* AppDelegate.m */,
-				8A86C9BC1F011F0400A88057 /* MasterViewController.h */,
-				8A86C9BD1F011F0400A88057 /* MasterViewController.m */,
-				8A86C9BF1F011F0400A88057 /* DetailViewController.h */,
-				8A86C9C01F011F0400A88057 /* DetailViewController.m */,
+				8A86C9EE1F01208F00A88057 /* Model */,
+				8A86C9EC1F01204C00A88057 /* GUI */,
 				8A86C9C21F011F0400A88057 /* Main.storyboard */,
 				8A86C9C51F011F0400A88057 /* Assets.xcassets */,
 				8A86C9C71F011F0400A88057 /* LaunchScreen.storyboard */,
@@ -143,6 +139,26 @@
 				8A86C9E01F011F0400A88057 /* Info.plist */,
 			);
 			path = ListView5UITests;
+			sourceTree = "<group>";
+		};
+		8A86C9EC1F01204C00A88057 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				8A86C9B91F011F0400A88057 /* AppDelegate.h */,
+				8A86C9BA1F011F0400A88057 /* AppDelegate.m */,
+				8A86C9BC1F011F0400A88057 /* MasterViewController.h */,
+				8A86C9BD1F011F0400A88057 /* MasterViewController.m */,
+				8A86C9BF1F011F0400A88057 /* DetailViewController.h */,
+				8A86C9C01F011F0400A88057 /* DetailViewController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		8A86C9EE1F01208F00A88057 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +228,7 @@
 				TargetAttributes = {
 					8A86C9B21F011F0400A88057 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2WN687738F;
 						ProvisioningStyle = Automatic;
 					};
 					8A86C9CE1F011F0400A88057 = {
@@ -432,6 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2WN687738F;
 				INFOPLIST_FILE = ListView5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ListView5;
@@ -443,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2WN687738F;
 				INFOPLIST_FILE = ListView5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ListView5;
