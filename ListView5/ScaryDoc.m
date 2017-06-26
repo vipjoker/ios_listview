@@ -16,7 +16,7 @@
 @synthesize thumbImage = _thumbImage;
 @synthesize fullImage = _fullImage;
 
--(id) initWithTitle:(NSString *)title rating:(float)rating thumbImage:(UIImage *)thumbImage thumbImage:(UIImage *)thumbIamge
+-(id) initWithTitle:(NSString *)title rating:(float)rating thumbImage:(UIImage *)thumbImage fullImage:(UIImage *)fullImage
 {
     if((self = [super init])){
         self.data = [[ScaryData alloc] initWithTitle:title ratting:rating];
