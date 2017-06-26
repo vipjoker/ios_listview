@@ -16,6 +16,8 @@
 		8A86C9C91F011F0400A88057 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A86C9C71F011F0400A88057 /* LaunchScreen.storyboard */; };
 		8A86C9D41F011F0400A88057 /* ListView5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86C9D31F011F0400A88057 /* ListView5Tests.m */; };
 		8A86C9DF1F011F0400A88057 /* ListView5UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86C9DE1F011F0400A88057 /* ListView5UITests.m */; };
+		8A86C9F11F01225700A88057 /* ScaryData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86C9F01F01225700A88057 /* ScaryData.m */; };
+		8A86C9F41F01281C00A88057 /* ScaryDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86C9F31F01281C00A88057 /* ScaryDoc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		8A86C9DA1F011F0400A88057 /* ListView5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListView5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A86C9DE1F011F0400A88057 /* ListView5UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListView5UITests.m; sourceTree = "<group>"; };
 		8A86C9E01F011F0400A88057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A86C9EF1F01225700A88057 /* ScaryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryData.h; sourceTree = "<group>"; };
+		8A86C9F01F01225700A88057 /* ScaryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryData.m; sourceTree = "<group>"; };
+		8A86C9F21F01281C00A88057 /* ScaryDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryDoc.h; sourceTree = "<group>"; };
+		8A86C9F31F01281C00A88057 /* ScaryDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryDoc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +163,10 @@
 		8A86C9EE1F01208F00A88057 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8A86C9EF1F01225700A88057 /* ScaryData.h */,
+				8A86C9F01F01225700A88057 /* ScaryData.m */,
+				8A86C9F21F01281C00A88057 /* ScaryDoc.h */,
+				8A86C9F31F01281C00A88057 /* ScaryDoc.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -296,6 +306,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A86C9BB1F011F0400A88057 /* AppDelegate.m in Sources */,
+				8A86C9F41F01281C00A88057 /* ScaryDoc.m in Sources */,
+				8A86C9F11F01225700A88057 /* ScaryData.m in Sources */,
 				8A86C9BE1F011F0400A88057 /* MasterViewController.m in Sources */,
 				8A86C9B81F011F0400A88057 /* main.m in Sources */,
 				8A86C9C11F011F0400A88057 /* DetailViewController.m in Sources */,
